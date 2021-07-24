@@ -1,0 +1,21 @@
+{% load static %}
+
+<html>
+<head>
+<title>Decrption</title>
+<!--link rel="stylesheet" type="text/css" href="{% static "stylesheets/style.css" %}"-->
+</head>
+
+<body>
+<h1>Welcome..! Enter text for Decryption</h1>
+
+<form action=" " method='POST'>
+  <table>
+    {{form.as_table}}
+  </table><br>
+  <input type="submit" value="Decrypt">
+  {% csrf_token %}
+</form>
+</body>
+
+</html>

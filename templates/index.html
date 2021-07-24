@@ -1,0 +1,33 @@
+{% load static %}
+
+<html>
+<head>
+<title>Home</title>
+<link rel="stylesheet" type="text/css" href="{% static "stylesheets/style.css" %}">
+
+</head>
+
+<body>
+</br>
+
+<hr style="height:1px;border:none;color:#333;background-color:#333;" />
+<h2 style="background-color:skyblue;"><b>Encrption Decryption</b></h2>
+<hr style="height:1px;border:none;color:#333;background-color:#333;" />
+
+</br></br></br></br></br></br>
+
+<div class=module>
+    <h1>Choose your Action</h1></br>
+    <a href="/task/endata"><button type="button" name="button">ENCRYPT</button></a></br></br>
+    <a href="/task/dedata"><button type="button" name="button">DECRYPT</button></a></br></br>
+</div>
+<br><br>
+<div  class=module>
+  <h1>Processed Data</h1></br>
+  <p>{{text}}</p>
+</div>
+
+
+</body>
+
+</html>
