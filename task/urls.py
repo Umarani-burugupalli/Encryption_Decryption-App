@@ -4,7 +4,7 @@ from task.views import Decrypdataview
 
 
 urlpatterns = [
-    path('endata/', Encrypdataview),
-    path('dedata/', Decrypdataview),
+    path('endata/', EncrypDataview),
+    path('dedata/', DecrypDataview),
 
 ]
